@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>66AAE3A9-1B91-4CB4-AB19-E0D6EAF48534</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DENDebugSnapper</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>82EB80CC-161A-4FC9-A272-CACA2027466A</key>
+		<string>ssh://github.com/doubleencore/de-tools-bugreport-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DENDebugSnapper/DENDebugSnapper.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>82EB80CC-161A-4FC9-A272-CACA2027466A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/doubleencore/de-tools-bugreport-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>82EB80CC-161A-4FC9-A272-CACA2027466A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>82EB80CC-161A-4FC9-A272-CACA2027466A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>de-tools-bugreport-ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>

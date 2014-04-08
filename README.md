@@ -2,11 +2,11 @@ A simple capture / email object for bug reporting and debugging.
 
 # Example Usage
 
-    #ifdef SOME_DEBUG_FLAG
     - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
     {
         // ...
-        
+
+        #ifdef SOME_DEBUG_FLAG    
         if (!self.snapper) {
             UITapGestureRecognizer *recognizer = [UITapGestureRecognizer new];
             recognizer.numberOfTapsRequired = 3;
@@ -37,5 +37,5 @@ A simple capture / email object for bug reporting and debugging.
             
             self.snapper = snapper;
         }
+        #endif
     }
-    #endif

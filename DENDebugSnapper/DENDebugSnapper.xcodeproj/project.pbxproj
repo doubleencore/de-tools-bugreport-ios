@@ -16,6 +16,7 @@
 		75D4DE5D18F49647001C5022 /* libDENDebugSnapper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D4DE4518F49647001C5022 /* libDENDebugSnapper.a */; };
 		75D4DE6318F49647001C5022 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75D4DE6118F49647001C5022 /* InfoPlist.strings */; };
 		75D4DE6518F49647001C5022 /* DENDebugSnapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D4DE6418F49647001C5022 /* DENDebugSnapperTests.m */; };
+		75D4DE8418F49AA7001C5022 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D4DE8318F49AA7001C5022 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		75D4DE6018F49647001C5022 /* DENDebugSnapperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DENDebugSnapperTests-Info.plist"; sourceTree = "<group>"; };
 		75D4DE6218F49647001C5022 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		75D4DE6418F49647001C5022 /* DENDebugSnapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DENDebugSnapperTests.m; sourceTree = "<group>"; };
+		75D4DE8318F49AA7001C5022 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75D4DE8418F49AA7001C5022 /* MessageUI.framework in Frameworks */,
 				75D4DE4918F49647001C5022 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +103,7 @@
 		75D4DE4718F49647001C5022 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				75D4DE8318F49AA7001C5022 /* MessageUI.framework */,
 				75D4DE4818F49647001C5022 /* Foundation.framework */,
 				75D4DE5618F49647001C5022 /* XCTest.framework */,
 				75D4DE5918F49647001C5022 /* UIKit.framework */,
@@ -405,6 +409,7 @@
 				75D4DE6A18F49647001C5022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75D4DE6B18F49647001C5022 /* Build configuration list for PBXNativeTarget "DENDebugSnapperTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				75D4DE6D18F49647001C5022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

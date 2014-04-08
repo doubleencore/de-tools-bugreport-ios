@@ -8,6 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
+
+typedef NSData *(^DENSnapDataCaptureBlock)(void);
+
+
 @interface DENDebugSnapper : NSObject
+
+@property (nonatomic, strong) UIGestureRecognizer *gestureRecognizer;
+@property (nonatomic) BOOL shouldSnapOnUserScreenshot;
+@property (nonatomic, strong) UIWindow *window;
+@property (nonatomic, copy) DENSnapDataCaptureBlock captureBlock;
+
+- (void)snap;
 
 @end

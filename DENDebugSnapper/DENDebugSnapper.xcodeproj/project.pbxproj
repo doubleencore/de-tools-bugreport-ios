@@ -333,6 +333,10 @@
 		75D4DE6918F49647001C5022 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7s,
+					armv7,
+				);
 				DSTROOT = /tmp/DENDebugSnapper.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DENDebugSnapper/DENDebugSnapper-Prefix.pch";
@@ -346,6 +350,10 @@
 		75D4DE6A18F49647001C5022 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7s,
+					armv7,
+				);
 				DSTROOT = /tmp/DENDebugSnapper.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DENDebugSnapper/DENDebugSnapper-Prefix.pch";

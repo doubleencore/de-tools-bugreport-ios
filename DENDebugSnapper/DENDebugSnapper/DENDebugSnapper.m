@@ -21,7 +21,7 @@
 
 - (void)dealloc
 {
-    BOOL canScreenshot = &UIApplicationUserDidTakeScreenshotNotification != NULL;
+    BOOL canScreenshot = UIApplicationUserDidTakeScreenshotNotification != NULL;
     if (canScreenshot) {
         [[NSNotificationCenter defaultCenter] removeObserver:self name:UIApplicationUserDidTakeScreenshotNotification object:nil];
     }
@@ -30,7 +30,7 @@
 
 - (void)setShouldSnapOnUserScreenshot:(BOOL)shouldSnapOnUserScreenshot
 {
-    BOOL canScreenshot = &UIApplicationUserDidTakeScreenshotNotification != NULL;
+    BOOL canScreenshot = UIApplicationUserDidTakeScreenshotNotification != NULL;
     if (!canScreenshot) return;
     
     if (_shouldSnapOnUserScreenshot != shouldSnapOnUserScreenshot) {
